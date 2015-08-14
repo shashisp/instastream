@@ -1,0 +1,13 @@
+{
+  "name": "instastream",
+  "version": "0.0.0",
+  "main": "directive.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
