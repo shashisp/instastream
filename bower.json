@@ -2,7 +2,7 @@
   "name": "instastream",
   "version": "0.0.0",
   "homepage": "https://github.com/shashisp/instastream",
-  "main": "directive.js",
+  "main": "instastream.js",
   "authors": [
     "shashiessp@gmail.com"
   ],
