@@ -1,0 +1,41 @@
+
+
+
+<!doctype html lang="en">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>angular-instastream</title>
+	
+	<!-- <link href="/static/style.css" rel="stylesheet"/> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	
+                    <script type="text/javascript" src="instastream.js"></script>
+
+	<style>
+	body {
+		margin-top: 100px;
+	}
+	.banner {
+		text-align: center;
+	}
+	.owl {
+		max-width:100% !important;
+		height:auto;
+		display:block;
+	}
+	</style>
+</head>
+<body ng-app="InstaStream">
+
+
+	<div  ng-controller="InstaStreamController">
+		<!-- <div ng-repeat="pic in pics"> -->
+			<!-- <li>{{ pic.link }}</li> -->
+		<!-- </div> -->
+    <myStream></myStream>
+	</div>	
+	
+
+</body>
+</html>
